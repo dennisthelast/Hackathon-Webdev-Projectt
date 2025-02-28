@@ -1,0 +1,58 @@
+.Div6{
+        
+    width: 300%;
+    background-color: #000000;
+    margin: auto;
+    
+    
+    
+    }
+  
+  .Div6 h1{
+         color: rgb(255, 255, 255);
+  }
+
+
+    .video-wrapper {
+        display: inline-block;
+        width: 200px; /* Adjust width as needed */
+        scroll-snap-align: start;
+        
+    }
+
+    video {
+        width: 200%;
+        border-radius: 5%;
+        
+        
+    }
+    
+    .Div6 img {
+        height: 30px;
+        float: right;
+
+    }
+
+.Page-1{
+    height: 100%;
+    background-color: #9b4747;
+    display: flex;
+    justify-content: space-between;
+    margin: %;
+}
+
+.video-container {
+    display: flex;
+    justify-content: flex-start; /* Aligns content to the left */
+    align-items: center; /* Centers vertically */
+    height: 80vh; /* Optional: makes the container full height */
+}
+
+.video-wrapper {
+    display: flex;
+    flex-direction: row; /* Aligns videos in a row */
+    gap: 10px;
+}
+
+
+

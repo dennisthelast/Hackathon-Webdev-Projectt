@@ -1,0 +1,222 @@
+body{background-color: #000000;}
+
+/*Navigation tab*/
+.content { position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color:blue; 
+ }
+
+
+.Header {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+    align-items: center;
+    height: 60px;
+ }
+
+ .logo {
+    height: 60px;
+    width: 60px;
+    margin-left: 8px;
+ }
+
+ .menu {
+    width: 50px;
+    float: right;
+ }
+
+ .info {
+    background-color: rgb(255, 255, 255);
+    padding: 12px 20px 12px 20px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    float: right;
+ }
+
+ .info:active {
+    opacity: 0.5;
+ }
+
+ .sites {
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+ }
+
+ /*Page 1*/
+
+ .Div1{
+     height: 100;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    margin: %;
+  }
+
+  .Div1 h1{
+         color: rgb(255, 255, 255);
+  }
+  .Div1 p{
+         color: rgb(255, 255, 255);
+                     display: flex;
+        justify-content: space-between;
+  }
+
+    .text1 {
+        flex: 1;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #ffffff;
+        float: left;
+        margin: 10px;
+        padding: 20px;
+        border: 100px;
+        background-color: rgb(43, 40, 40);
+        float: left;
+        
+    }
+
+    .Div1 img {
+        height: 300px;
+        float: left;
+
+    }
+
+            /*Splits*/
+            .Div2{
+                height: 100%;
+                background-color: #000000;
+                display: flex;
+                justify-content: space-between;
+                margin: %;
+                
+                
+                }
+              
+              .Div2 h1{
+                     color: rgb(255, 255, 255);
+              }
+              .Div2 p{
+                     color: rgb(255, 255, 255);
+                                 display: flex;
+                    justify-content: space-between;
+              }
+        
+                .text2 {
+                    flex: 1;
+                    font-size: 20px;
+                    line-height: 1.6;
+                    color: #ffffff;
+                    float: left;
+                    margin: 30px;
+                    padding: 10px;
+                    border: 10px;
+                    background-color: rgb(43, 40, 40);
+                    float: left;
+                    
+                }
+        
+                .Div2 img {
+                    height: 300px;
+        
+                }
+
+                /*Splits*/
+ .Div3{
+         height: 100%;
+         background-color: #000000;
+         display: flex;
+         justify-content: space-between;
+         margin: %;
+ }
+               
+.Div3 h1{
+         color: rgb(255, 255, 255);
+ }
+ .Div3 p{
+         color: rgb(255, 255, 255);
+         display: flex;
+         justify-content: space-between;
+ }          
+ .text3 {
+         flex: 1;
+         font-size: 20px;
+         line-height: t.6;
+         color: #ffffff;
+         float: left;
+         margin: 10px;
+         padding: 20px;
+         border: 100px;
+         background-color: rgb(43, 40, 40);
+         float: left;
+                   
+ }
+
+.Div3 img {
+      height: 300px;
+      float: left;
+              
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #bd6969;
+  }
+  
+   /*Splits*/
+   .Div4{
+    height: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    margin: %;
+    
+    
+    }
+  
+  .Div4 h1{
+         color: rgb(255, 255, 255);
+  }
+  .Div4 p{
+         color: rgb(255, 255, 255);
+                     display: flex;
+        justify-content: space-between;
+  }
+
+    .text4 {
+        flex: 1;
+        font-size: 20px;
+        line-height: 1.6;
+        color: #ffffff;
+        float: left;
+        margin: 30px;
+        padding: 10px;
+        border: 10px;
+        background-color: rgb(43, 40, 40);
+        float: left;
+        
+    }
+
+    .Div4 img {
+        height: 300px;
+
+    }
